@@ -40,3 +40,300 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Started GET "/" for ::1 at 2020-06-11 10:09:27 -0500
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/activerecord-5.0.7.1/lib/active_record/migration.rb:573:in `check_pending!'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/activerecord-5.0.7.1/lib/active_record/migration.rb:549:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/activesupport-5.0.7.1/lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/activesupport-5.0.7.1/lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/activesupport-5.0.7.1/lib/active_support/callbacks.rb:90:in `run_callbacks'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/executor.rb:12:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/rack/logger.rb:36:in `call_app'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/rack/logger.rb:24:in `block in call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/activesupport-5.0.7.1/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/activesupport-5.0.7.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/activesupport-5.0.7.1/lib/active_support/tagged_logging.rb:69:in `tagged'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/rack/logger.rb:24:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/request_id.rb:24:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/activesupport-5.0.7.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/executor.rb:12:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/static.rb:136:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/engine.rb:522:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/rack-2.0.6/lib/rack/handler/webrick.rb:86:in `service'
+/Users/claudiud/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/claudiud/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/claudiud/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (1.0ms)
+  Rendering /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendering /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (35.5ms)
+Started GET "/students" for ::1 at 2020-06-11 10:09:40 -0500
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/activerecord-5.0.7.1/lib/active_record/migration.rb:573:in `check_pending!'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/activerecord-5.0.7.1/lib/active_record/migration.rb:549:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/activesupport-5.0.7.1/lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/activesupport-5.0.7.1/lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/activesupport-5.0.7.1/lib/active_support/callbacks.rb:90:in `run_callbacks'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/executor.rb:12:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/rack/logger.rb:36:in `call_app'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/rack/logger.rb:24:in `block in call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/activesupport-5.0.7.1/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/activesupport-5.0.7.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/activesupport-5.0.7.1/lib/active_support/tagged_logging.rb:69:in `tagged'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/rack/logger.rb:24:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/request_id.rb:24:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/activesupport-5.0.7.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/executor.rb:12:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/static.rb:136:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/engine.rb:522:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/rack-2.0.6/lib/rack/handler/webrick.rb:86:in `service'
+/Users/claudiud/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/claudiud/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/claudiud/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (1.8ms)
+  Rendering /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendering /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.5ms)
+  [1m[35m (1.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateStudents (1)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+DEPRECATION WARNING: Directly inheriting from ActiveRecord::Migration is deprecated. Please specify the Rails release the migration was written for:
+
+  class CreateStudents < ActiveRecord::Migration[4.2] (called from block in execute at /Users/claudiud./.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273)
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "students" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar, "last_name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "1"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-06-11 15:09:52.257339"], ["updated_at", "2020-06-11 15:09:52.257339"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/students" for ::1 at 2020-06-11 10:10:01 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StudentsController#index as HTML
+  Rendering students/index.html.erb within layouts/application
+  [1m[36mStudent Load (0.5ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 409ms (Views: 386.6ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/students" for ::1 at 2020-06-11 10:10:05 -0500
+Processing by StudentsController#index as HTML
+  Rendering students/index.html.erb within layouts/application
+  [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/students" for ::1 at 2020-06-11 10:10:31 -0500
+  Rendering students/index.html.erb within layouts/application
+  Rendered students/index.html.erb within layouts/application (21.5ms)
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <div>
+    2:   <% @students.each do |student| %>
+    3:     <div><%= student.first_name + " " + student.last_name %></div>
+    4:   <% end %>
+    5: </div>
+  
+app/views/students/index.html.erb:2:in `_app_views_students_index_html_erb___1198492011105978611_70206702693000'
+app/controllers/students_controller.rb:5:in `<class:StudentsController>'
+app/controllers/students_controller.rb:1:in `<top (required)>'
+  Rendering /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.2ms)
+Started GET "/students/2" for ::1 at 2020-06-11 10:11:25 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/students/2"):
+  
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/rack/logger.rb:36:in `call_app'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/rack/logger.rb:24:in `block in call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/activesupport-5.0.7.1/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/activesupport-5.0.7.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/activesupport-5.0.7.1/lib/active_support/tagged_logging.rb:69:in `tagged'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/rack/logger.rb:24:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/request_id.rb:24:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/activesupport-5.0.7.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/executor.rb:12:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/static.rb:136:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/engine.rb:522:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/rack-2.0.6/lib/rack/handler/webrick.rb:86:in `service'
+/Users/claudiud/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/claudiud/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/claudiud/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (15.1ms)
+  Rendered /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.7ms)
+  Rendering /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (62.7ms)
+Started GET "/students/2" for ::1 at 2020-06-11 10:13:46 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StudentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mStudent Load (0.6ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 404 Not Found in 12ms (ActiveRecord: 0.9ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Student with 'id'=2):
+  
+app/controllers/students_controller.rb:6:in `show'
+  Rendering /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (34.7ms)
+Started GET "/students" for ::1 at 2020-06-11 10:13:54 -0500
+Processing by StudentsController#index as HTML
+  Rendering students/index.html.erb within layouts/application
+  [1m[36mStudent Load (0.1ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 225ms (Views: 223.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/student/2" for ::1 at 2020-06-11 10:13:58 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/student/2"):
+  
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/rack/logger.rb:36:in `call_app'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/rack/logger.rb:24:in `block in call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/activesupport-5.0.7.1/lib/active_support/tagged_logging.rb:69:in `block in tagged'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/activesupport-5.0.7.1/lib/active_support/tagged_logging.rb:26:in `tagged'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/activesupport-5.0.7.1/lib/active_support/tagged_logging.rb:69:in `tagged'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/rack/logger.rb:24:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/sprockets-rails-3.2.1/lib/sprockets/rails/quiet_assets.rb:13:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/request_id.rb:24:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/rack-2.0.6/lib/rack/method_override.rb:22:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/rack-2.0.6/lib/rack/runtime.rb:22:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/activesupport-5.0.7.1/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/executor.rb:12:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/static.rb:136:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/rack-2.0.6/lib/rack/sendfile.rb:111:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/engine.rb:522:in `call'
+/Users/claudiud/.rvm/gems/ruby-2.6.1/gems/rack-2.0.6/lib/rack/handler/webrick.rb:86:in `service'
+/Users/claudiud/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/Users/claudiud/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/Users/claudiud/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered collection of /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (9.7ms)
+  Rendered /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (20.4ms)
+  Rendering /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (70.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateStudents (1)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+DEPRECATION WARNING: Directly inheriting from ActiveRecord::Migration is deprecated. Please specify the Rails release the migration was written for:
+
+  class CreateStudents < ActiveRecord::Migration[4.2] (called from block in execute at /Users/claudiud./.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273)
+  [1m[35m (0.9ms)[0m  [1m[35mDROP TABLE "students"[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "1"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateStudents (1)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+DEPRECATION WARNING: Directly inheriting from ActiveRecord::Migration is deprecated. Please specify the Rails release the migration was written for:
+
+  class CreateStudents < ActiveRecord::Migration[4.2] (called from block in execute at /Users/claudiud./.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273)
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "students" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar, "last_name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "1"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/students" for ::1 at 2020-06-11 10:15:52 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StudentsController#index as HTML
+  Rendering students/index.html.erb within layouts/application
+  [1m[36mStudent Load (0.8ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
+  Rendered students/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 246ms (Views: 236.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/students/2" for ::1 at 2020-06-11 10:16:05 -0500
+Processing by StudentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT  "students".* FROM "students" WHERE "students"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 404 Not Found in 5ms (ActiveRecord: 0.6ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Student with 'id'=2):
+  
+app/controllers/students_controller.rb:6:in `show'
+  Rendering /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/claudiud./.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (34.9ms)
